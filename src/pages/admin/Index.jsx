@@ -3,8 +3,9 @@ import React from 'react'
 const Admin = () => {
   return (
     <div>
-        Página para administrador
+        Index del panel de Admi
     </div>
+    
   )
 }
 

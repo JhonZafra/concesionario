@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import { Outlet } from "react-router-dom";
 
-const AuthLayaout = ( {children} ) => {
+const AuthLayaout = ({ children }) => {
   return (
-    <div>Layout autentificacion
-    {children}
+    <div className="bg-green-600">
+      Layout autentificacion
+      { children }
+      <Outlet />
     </div>
-  )
-}
+  );
+};
 
-export default AuthLayaout
+export default AuthLayaout;
