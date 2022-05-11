@@ -1,13 +1,20 @@
-
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "styles/styles.css";
+import Login from "pages/Login.jsx";
+import Registro from "pages/Registro.jsx";
+import Admin from "pages/Admin.jsx";
+import Index from "pages/Index.jsx";
 
 function App() {
   return (
-    <div className="App">
-       <h1 className="text-2xl">
-      Hello world!
-    </h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/login" element={<Login />} />
+        <Route path="/registro" element={<Registro />}></Route>
+        <Route path="/admin" element={<Admin />}></Route>
+        <Route path="/" element={<Index />}></Route>
+      </Routes>
+    </Router>
   );
 }
 
