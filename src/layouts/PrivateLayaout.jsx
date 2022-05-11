@@ -1,8 +1,12 @@
+import Sidebar from 'components/Sidebar'
 import React from 'react'
 
-const PrivateLayaout = () => {
+const PrivateLayaout = ({ children }) => {
   return (
-    <div>PrivateLayaout</div>
+    <div>
+        <Sidebar />
+        { children }
+    </div>
   )
 }
 

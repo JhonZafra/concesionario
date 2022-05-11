@@ -1,8 +1,10 @@
 import React from 'react'
 
-const AuthLayaout = () => {
+const AuthLayaout = ( {children} ) => {
   return (
-    <div>AuthLayaout</div>
+    <div>Layout autentificacion
+    {children}
+    </div>
   )
 }
 
