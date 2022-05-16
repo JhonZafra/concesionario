@@ -21,7 +21,7 @@ const Login = () => {
             required
           />
         </div>
-        <div>
+        <div className="flex justify-between">
           <div>
             <label htmlFor="recuerdame">
               <input type="checkbox" name="recuerdame" />
@@ -37,6 +37,7 @@ const Login = () => {
             <button type="submit">Iniciar Sesion</button>
           </Link>
         </div>
+        <div>O</div>
         <div>
           <button>Continua con google</button>
         </div>
