@@ -6,7 +6,7 @@ import AuthLayaout from "layouts/AuthLayaout";
 import PrivateLayaout from "layouts/PrivateLayaout";
 import Admin from "pages/admin/Index";
 import PublicLayout from "layouts/PublicLayout";
-import Index from "pages/auth/Index";
+import Index from "pages/Index";
 import Clientes from "pages/admin/Clientes";
 import Vehiculos from "pages/admin/Vehiculos";
 
