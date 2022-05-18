@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Google from "media/Google.png"
-
+import Google from "media/Google.png";
+import carDealerLogo from "media/carDealerLogo.jpg"
 
 const Login = () => {
   return (
     <div className="flex flex-col w-full justify-center items-center">
-      <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
+      <h2 className="mt-4 mb-4 text-center text-3xl font-extrabold text-gray-900">
         Inicia sesion en tu cuenta
       </h2>
-      <form className="mt-8 space-y-6">
+      <img src={ carDealerLogo } alt="Imagen del concesionario" />
+      <form className="space-y-6">
         <input type="hidden" name="remember" defaultValue="true" />
         <div className="rounded-md shadow-sm -space-y-px">
           <div>
